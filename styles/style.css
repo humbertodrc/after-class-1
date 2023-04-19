@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: Amstagram;
+  src: url(../assets/font/Amstagram.ttf);
+}
+
+body{
+  background-color: #dadcd4;
+}
+
+h1, h2, h3{
+  font-family: Amstagram, sans-serif;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabecera{
+  width: 100%;
+  background-color: #88b2cf;
+  position: sticky;
+  top: 0;
+  padding: 20px 0;
+}
+
+.navbar{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.navbar ul li{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.hero-box{
+  background-image: url(../assets/img/hero-playa.jpg);
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.hero-text{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.hero-box h1{
+  font-size: 48px;
+}
+
+.hero-box p{
+  font-size: 20px;
+}
+
+.about{
+  margin: 70px 0;
+}
+
+.about-container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-body{
+  display: inline-block;
+  width: 500px;
+  padding: 0 50px;
+  vertical-align: top;
+  text-align: justify;
+}
+
+.service{
+  margin-bottom: 70px;
+}
+
+.service h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-container{
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.card{
+  width: 300px;
+  background-color: #6b97cb;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-body{
+  padding: 20px;
+}
+
+.contact{
+  margin-bottom: 70px;
+}
+
+.contact h2{
+  text-align: center;
+}
+
+.contact-container{
+  width: 700px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.contact-container div{
+  margin-bottom: 15px;
+}
+.contact-container label{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-container input{
+  width: 100%;
+  border-radius: 10px;
+  padding: 15px 0 15px 15px;
+}
+
+.contact-container .enviar{
+  background-color: #6b97cb;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  padding: 50px;
+  background-color: #323d14;
+}
+
+footer p{
+  text-align: center;
+  color: #fff;
+}
+
+footer .go-up{
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.go-up a{
+  display: inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: #000;
+}
